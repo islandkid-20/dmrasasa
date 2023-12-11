@@ -19,3 +19,7 @@ body{
 .no-border{
     border: none !important;
 }
+
+.card-text{
+    text-align: justify;
+}
