@@ -10,8 +10,17 @@
     <!--Fontawesome CDN-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
+
+    <!--Custom CSS-->
     <link  rel="stylesheet" href="css/style.css">
+
+    <!--OWL cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!--Jquery-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
     <title>DM RASASA</title>
 </head>
@@ -48,6 +57,9 @@
 
                     </li>
 
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
                 </ul>
             </div>
         </div>        
@@ -108,41 +120,51 @@
                 </p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
+            <div class="owl-carousel" id="team-carousel">
+                <div class="item">
                     <div class="card bg-transparent border-0">
                         <div class="card-body text-center">
                             <div class="mb-3">
                                 <img src="https://randomuser.me/api/portraits/men/20.jpg" class="img-fluid rounded-circle w-50" alt="">
                             </div>
 
-                            <h5 class="card-title mb-3">Damas A Masengo</h5>
-                            <p class="text-muted small fw-bold">Founder</p>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus, quia voluptatibus odio voluptates libero..
+                            <h5 class="card-title mb-3 text-start">Damas A Masengo</h5>
+                            <p class="text-muted small fw-bold text-start">Founder</p>
+                            <p class="small text-start">
+                                dm@dmrasasa.co.tz
+                            </p>
+                            <p class="small text-start">
+                                +255 911 11 11 11
                             </p>
 
-                            <a href="#"><i class="fab fa-twitter mx-2"></i> </a>
-                            <a href="#"><i class="fab fa-facebook mx-2"></i> </a>
-                            <a href="#"><i class="fab fa-instagram mx-2"></i> </a>
-                            <a href="#"><i class="fab fa-linkedin mx-2"></i> </a>
+                            <div class="text-start">
+                                <a href="#"><i class="fab fa-twitter mx-2"></i> </a>
+                                <a href="#"><i class="fab fa-facebook mx-2"></i> </a>
+                                <a href="#"><i class="fab fa-instagram mx-2"></i> </a>
+                                <a href="#"><i class="fab fa-linkedin mx-2"></i> </a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="item">
                     <div class="card bg-transparent border-0">
                         <div class="card-body text-center">
                             <div class="mb-3">
-                                <img src="https://randomuser.me/api/portraits/men/22.jpg" class="img-fluid rounded-circle w-50" alt="">
+                                <img src="img/1j.png" class="img-fluid rounded-circle w-50" alt="">
                             </div>
 
+                           <div class="text-start">
                             <h5 class="card-title mb-3">James M James</h5>
                             <p class="text-muted small fw-bold"> Software Engineer </p>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus, quia voluptatibus odio voluptates libero..
+                            <p class="small">
+                                james@dmrasasa.co.tz
                             </p>
+                            <p class="small">
+                                +255 911 11 11 11
+                            </p>
+
 
                             <a href="#"><i class="fab fa-twitter mx-2"></i> </a>
                             <a href="#"><i class="fab fa-facebook mx-2"></i> </a>
@@ -150,48 +172,59 @@
                             <a href="#"><i class="fab fa-linkedin mx-2"></i> </a>
 
                         </div>
+                           </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="item">
                     <div class="card bg-transparent border-0">
                         <div class="card-body text-center">
                             <div class="mb-3">
                                 <img src="https://randomuser.me/api/portraits/women/23.jpg" class="img-fluid rounded-circle w-50" alt="">
                             </div>
 
+                            <div class="text-start">
                             <h5 class="card-title mb-3">Sarah D Andrew</h5>
                             <p class="text-muted small fw-bold">IT consultance</p>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus, quia voluptatibus odio voluptates libero..
+                            <p class="small">
+                                sarah@dmrasasa.co.tz
+                            </p>
+                            <p class="small">
+                                +255 911 11 11 11
                             </p>
 
                             <a href="#"><i class="fab fa-twitter mx-2"></i> </a>
                             <a href="#"><i class="fab fa-facebook mx-2"></i> </a>
                             <a href="#"><i class="fab fa-instagram mx-2"></i> </a>
                             <a href="#"><i class="fab fa-linkedin mx-2"></i> </a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="item">
                     <div class="card bg-transparent border-0">
                         <div class="card-body text-center">
                             <div class="mb-3">
                                 <img src="https://randomuser.me/api/portraits/women/33.jpg" class="img-fluid rounded-circle w-50" alt="">
                             </div>
 
-                            <h5 class="card-title mb-3">Stella M Malwa</h5>
+                            <div class="text-start">
+                                <h5 class="card-title mb-3">Stella M Malwa</h5>
                             <p class="text-muted small fw-bold"> Accountant </p>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus, quia voluptatibus odio voluptates libero..
+                            <p class="small">
+                                stella@dmrasasa.co.tz
+                            </p>
+                            <p class="small">
+                                +255 911 11 11 11
                             </p>
 
                             <a href="#"><i class="fab fa-twitter mx-2"></i> </a>
                             <a href="#"><i class="fab fa-facebook mx-2"></i> </a>
                             <a href="#"><i class="fab fa-instagram mx-2"></i> </a>
                             <a href="#"><i class="fab fa-linkedin mx-2"></i> </a>
+                            </div>
                            </div>
 
                     </div>
@@ -223,7 +256,7 @@
                             </div>
 
                             <h5 class="card-title fw-bold">IT Consultation</h5>
-                            <p class="small card-text">
+                            <p class="small card-text service-description">
                                We understand the pivotal role that Information Technology plays in today's dynamic business landscape.
                                Our IT consulting services are designed to empower your business with cutting-edge solutions, streamline operations,
                                and boosting overall efficiency.
@@ -242,7 +275,7 @@
                             </div>
 
                             <h5 class="card-title fw-bold">Bussiness Consultation</h5>
-                            <p class="card-text small">
+                            <p class="card-text small service-description">
                                 We are dedicated to propelling businesses to new heights through insightful consultation and strategic planning. Our seasoned business consultants bring a wealth of experience across industries, providing tailored solutions to address your unique challenges and accelerate your growth.
 
                                 Our Business Consultation services include: Business Planning, Business Analysis, Business Process Improvement, Business Strategy, Business Management, Business Development, Business Coaching, Business Training.
@@ -259,7 +292,7 @@
                             </div>
 
                             <h5 class="card-title fw-bold">Tourism</h5>
-                            <p class="card-text small">
+                            <p class="card-text small service-description">
                                 We transform travel into an immersive and unforgettable experience. 
                                 As passionate advocates for exploration, we curate journeys that go beyond the ordinary, unlocking the hidden gems of each destination and creating memories that last a lifetime.
                                 Our Tourism services include: Tour Planning, Tour Guide, Tour Management, Tour Training, Tour Consultation.
@@ -277,7 +310,7 @@
                             </div>
 
                             <h5 class="card-title fw-bold">Stationary and Office Supplies</h5>
-                            <p class="card-text small">
+                            <p class="card-text small service-description">
                                 we understand that a well-equipped workspace is essential for productivity and creativity.
                                  Discover a world of premium stationery and office supplies that seamlessly blend functionality with style, curated to meet the diverse needs of modern businesses.
                                     Our Stationary and Office Supplies services include: Stationary Supplies, Office Supplies, Office Equipment, Office Furniture, Office Machines, Office Automation, Office Stationery, Office Accessories.
@@ -296,6 +329,33 @@
 
 
         </div>
+    </section>
+
+    <!--Projects-->
+
+    <section class="bg-light p-5" id="projects">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-uppercase fw-bold">Our <span class="text-primary">Projects</span> </h2>
+                <p class="text-muted">
+                    This is our recent projects that we have done. We are still working on more projects.                    
+                </p>
+            </div>
+
+            <div class="owl-carousel" id="project">
+                <div class="item">
+                    <img src="img/5.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="item">
+                    <img src="img/ag1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="item">
+                    <img src="img/ag3.jpg" alt="" class="img-fluid">
+                </div>
+             
+            </div>
+        </div>
+
     </section>
 
     <!-- Contact-->
@@ -379,6 +439,60 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!--Owl Carousel js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $('#project').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+
+            600:{
+                items:2
+            },
+
+            1000:{
+                items:3
+            }
+        }
+    });
+
+    $('#team-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        
+        responsive:{
+            0:{
+                items:1
+            },
+
+            600:{
+                items:2
+            },
+
+            1000:{
+                items:3
+            },
+
+            1200:{
+                items:4
+            }
+        }
+    });
+</script>
 
 </body>
 </html>

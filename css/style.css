@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
+
 body::before{
     display: block;
     content: "";
@@ -20,6 +25,19 @@ body{
     border: none !important;
 }
 
-.card-text{
+.service-description{
     text-align: justify;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus, .navbar-toggler:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+    box-shadow: none !important;
 }
